@@ -6,8 +6,8 @@ public class PhoneButton extends Phone implements Messagable,Callable{
     }
 
     @Override
-    public void getMessage( ) {
-        System.out.println("Отправляю текстовое сообщение...");
+    public void getMessage(String text) {
+        System.out.println(text);
     }
 
     @Override

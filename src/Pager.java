@@ -12,7 +12,7 @@ public class Pager extends Phone implements Messagable{
     }
 
     @Override
-    public void getMessage() {
-        System.out.println("Отправляю сообщение...");
+    public void getMessage(String text) {
+        System.out.println(text);
     }
 }

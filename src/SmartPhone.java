@@ -18,7 +18,7 @@ public class SmartPhone extends Phone implements Messagable,Callable,Mediable{
     }
 
     @Override
-    public void getMessage() {
-        System.out.println("Отправляет текстовое сообщение...");
+    public void getMessage(String text) {
+        System.out.println(text);
     }
 }

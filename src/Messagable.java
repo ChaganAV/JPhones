@@ -1,3 +1,3 @@
 public interface Messagable {
-    public void getMessage();
+    public void getMessage(String text);
 }
