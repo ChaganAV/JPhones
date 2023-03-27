@@ -1,3 +1,3 @@
 public interface Mediable {
-    public String getVideo();
+    public void getVideo();
 }

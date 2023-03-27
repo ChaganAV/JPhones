@@ -1,10 +1,12 @@
 public class Contact {
     private String name;
     private Person person;
+    private Phone phone;
     public Contact(){}
-    public Contact(String name, Person person) {
+    public Contact(String name, Person person, Phone phone) {
         this.name = name;
         this.person = person;
+        this.phone = phone;
     }
 
     public String getName() {
@@ -22,4 +24,13 @@ public class Contact {
     public void setPerson(Person person) {
         this.person = person;
     }
+
+    public Phone getPhone() {
+        return phone;
+    }
+
+    public void setPhone(Phone phone) {
+        this.phone = phone;
+    }
+
 }

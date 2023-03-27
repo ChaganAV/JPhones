@@ -1,3 +1,3 @@
 public interface Callable {
-    public String getCall();
+    public void calling();
 }
